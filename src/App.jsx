@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero/Hero';
+import About from './components/About';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/contact';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <ThemeProvider>
+      <LanguageProvider>
+        <div className="min-h-screen transition-colors duration-300 dark:bg-[#0a0a0a] dark:text-white bg-white text-gray-900">
+          <Navbar />
+          <Hero />
+          <About />
+          <Skills />
+          <Projects/>
+          <Contact/>
+
+          
+          {/* Contenu temporaire pour les autres sections */}
+          <main>
+            {/* <section id="projects" className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-[#111111]">
+              <div className="text-center">
+                <h1 className="text-5xl font-bold mb-4">Projects Section</h1>
+                <p className="text-gray-500 dark:text-gray-400">Coming soon...</p>
+              </div>
+            </section> */}
+
+            {/* <section id="contact" className="min-h-screen flex items-center justify-center">
+              <div className="text-center">
+                <h1 className="text-5xl font-bold mb-4">Contact Section</h1>
+                <p className="text-gray-500 dark:text-gray-400">Coming soon...</p>
+              </div>
+            </section> */}
+          </main>
+        </div>
+      </LanguageProvider>
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;

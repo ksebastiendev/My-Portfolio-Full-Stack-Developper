@@ -7,6 +7,8 @@ import About from './components/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/contact';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           <Skills />
           <Projects/>
           <Contact/>
-
+          <Footer/>
           
           {/* Contenu temporaire pour les autres sections */}
           <main>

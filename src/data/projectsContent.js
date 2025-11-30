@@ -16,11 +16,11 @@ export const projectsContent = {
       },
       {
         id: 2,
-        title: "TrellMobile",
-        description: "Mobile Kanban-style project management app with real-time synchronization and cross-platform support for iOS & Android.",
-        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80", // Placeholder
+        title: "Fammers",
+        description: "Full-stack online app where we can appreciate movies and .",
+        image: "src/assets/fammer-site-capture.png", // Placeholder
         technologies: ["React Native", "Firebase"],
-        liveUrl: null,
+        liveUrl: 'https://tomatoes-farmers.vercel.app/',
         githubUrl: "https://github.com/ksebastiendev/trellmobile",
         featured: true
       },
@@ -56,13 +56,13 @@ export const projectsContent = {
         githubUrl: "https://github.com/ksebastiendev/myshowtime",
         featured: true
       },
-      {
+        {
         id: 2,
-        title: "TrellMobile",
-        description: "Application mobile de gestion de projets style Kanban avec synchronisation en temps réel et support multiplateforme iOS & Android.",
-        image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
+        title: "Fammers",
+        description: "Full-stack online app where we can appreciate movies and .",
+        image: "src/assets/fammer-site-capture.png", // Placeholder
         technologies: ["React Native", "Firebase"],
-        liveUrl: null,
+        liveUrl: 'https://tomatoes-farmers.vercel.app/',
         githubUrl: "https://github.com/ksebastiendev/trellmobile",
         featured: true
       },

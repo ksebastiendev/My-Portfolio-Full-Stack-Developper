@@ -8,7 +8,7 @@ export const projectsContent = {
         id: 1,
         title: "MyShowTime",
         description: "Full-stack online booking and ticketing solution with user management, secure authentication, and optimized UX with payment integration.",
-        image: "src/assets/My-show-time.png", // Placeholder
+        image: "../assets/My-show-time.png", // Placeholder
         technologies: ["React", "Next.js", "MongoDb"],
         liveUrl: "https://military-rory-epitech-c96fb691.koyeb.app/", // null = disabled
         githubUrl: "https://github.com/ksebastiendev/myshowtime",
@@ -18,7 +18,7 @@ export const projectsContent = {
         id: 2,
         title: "Fammers",
         description: "Full-stack online app where we can appreciate movies and .",
-        image: "src/assets/fammer-site-capture.png", // Placeholder
+        image: "../assets/fammer-site-capture.png", // Placeholder
         technologies: ["Nextjs", "MongoDb"],
         liveUrl: 'https://tomatoes-farmers.vercel.app/',
         githubUrl: "https://github.com/ksebastiendev/trellmobile",
@@ -28,7 +28,7 @@ export const projectsContent = {
         id: 3,
         title: "YOWL",
         description: "Full-stack online app where we can appreciate everything on internet.",
-        image: "src/assets/Yowl-screen.png", // Placeholder
+        image: "../assets/Yowl-screen.png", // Placeholder
         technologies: ["VueJs", "HTML", "Tailwind", "Laravel"],
         liveUrl: "https://yowlhewo.netlify.app/",
         githubUrl: "https://github.com/ksebastiendev/myshop",
@@ -50,7 +50,7 @@ export const projectsContent = {
         id: 1,
         title: "MyShowTime",
         description: "Solution complète de réservation et billetterie en ligne avec gestion des utilisateurs, authentification sécurisée et UX optimisée avec intégration de paiement.",
-        image: "src/assets/My-show-time.png",
+        image: "../assets/My-show-time.png",
         technologies: ["React", "Next.js", "MongoDb"],
         liveUrl: "https://military-rory-epitech-c96fb691.koyeb.app/",
         githubUrl: "https://github.com/ksebastiendev/myshowtime",
@@ -60,7 +60,7 @@ export const projectsContent = {
         id: 2,
         title: "Fammers",
         description: "Full-stack online app where we can appreciate movies and .",
-        image: "src/assets/fammer-site-capture.png", // Placeholder
+        image: "../assets/fammer-site-capture.png", // Placeholder
         technologies: ["Next js", "MongoDb"],
         liveUrl: 'https://tomatoes-farmers.vercel.app/',
         githubUrl: "https://github.com/ksebastiendev/trellmobile",
@@ -70,7 +70,7 @@ export const projectsContent = {
         id: 3,
         title: "YOWL",
         description: "Full-stack online app where we can appreciate everything on internet.",
-        image: "src/assets/Yowl-screen.png", // Placeholder
+        image: "../assets/Yowl-screen.png", // Placeholder
         technologies: ["VueJs", "HTML", "Tailwind", "Laravel"],
         liveUrl: "https://yowlhewo.netlify.app/",
         githubUrl: "https://github.com/ksebastiendev/myshop",

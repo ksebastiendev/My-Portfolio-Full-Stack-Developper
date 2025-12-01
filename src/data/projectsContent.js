@@ -8,9 +8,9 @@ export const projectsContent = {
         id: 1,
         title: "MyShowTime",
         description: "Full-stack online booking and ticketing solution with user management, secure authentication, and optimized UX with payment integration.",
-        image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80", // Placeholder
-        technologies: ["React", "Next.js", "Nest.js", "SQL"],
-        liveUrl: null, // null = disabled
+        image: "src/assets/My-show-time.png", // Placeholder
+        technologies: ["React", "Next.js", "MongoDb"],
+        liveUrl: "https://military-rory-epitech-c96fb691.koyeb.app/", // null = disabled
         githubUrl: "https://github.com/ksebastiendev/myshowtime",
         featured: true
       },
@@ -19,18 +19,18 @@ export const projectsContent = {
         title: "Fammers",
         description: "Full-stack online app where we can appreciate movies and .",
         image: "src/assets/fammer-site-capture.png", // Placeholder
-        technologies: ["React Native", "Firebase"],
+        technologies: ["Nextjs", "MongoDb"],
         liveUrl: 'https://tomatoes-farmers.vercel.app/',
         githubUrl: "https://github.com/ksebastiendev/trellmobile",
         featured: true
       },
       {
         id: 3,
-        title: "Myshop",
-        description: "Complete e-commerce platform with product catalog, shopping cart, checkout system, and admin dashboard for inventory management.",
-        image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80", // Placeholder
-        technologies: ["Laravel", "HTML", "CSS", "JavaScript"],
-        liveUrl: null,
+        title: "YOWL",
+        description: "Full-stack online app where we can appreciate everything on internet.",
+        image: "src/assets/Yowl-screen.png", // Placeholder
+        technologies: ["VueJs", "HTML", "Tailwind", "Laravel"],
+        liveUrl: "https://yowlhewo.netlify.app/",
         githubUrl: "https://github.com/ksebastiendev/myshop",
         featured: true
       }
@@ -50,9 +50,9 @@ export const projectsContent = {
         id: 1,
         title: "MyShowTime",
         description: "Solution complète de réservation et billetterie en ligne avec gestion des utilisateurs, authentification sécurisée et UX optimisée avec intégration de paiement.",
-        image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
-        technologies: ["React", "Next.js", "Nest.js", "SQL"],
-        liveUrl: null,
+        image: "src/assets/My-show-time.png",
+        technologies: ["React", "Next.js", "MongoDb"],
+        liveUrl: "https://military-rory-epitech-c96fb691.koyeb.app/",
         githubUrl: "https://github.com/ksebastiendev/myshowtime",
         featured: true
       },
@@ -61,18 +61,18 @@ export const projectsContent = {
         title: "Fammers",
         description: "Full-stack online app where we can appreciate movies and .",
         image: "src/assets/fammer-site-capture.png", // Placeholder
-        technologies: ["React Native", "Firebase"],
+        technologies: ["Next js", "MongoDb"],
         liveUrl: 'https://tomatoes-farmers.vercel.app/',
         githubUrl: "https://github.com/ksebastiendev/trellmobile",
         featured: true
       },
       {
         id: 3,
-        title: "Myshop",
-        description: "Plateforme e-commerce complète avec catalogue de produits, panier d'achat, système de paiement et tableau de bord admin pour la gestion d'inventaire.",
-        image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-        technologies: ["Laravel", "HTML", "CSS", "JavaScript"],
-        liveUrl: null,
+        title: "YOWL",
+        description: "Full-stack online app where we can appreciate everything on internet.",
+        image: "src/assets/Yowl-screen.png", // Placeholder
+        technologies: ["VueJs", "HTML", "Tailwind", "Laravel"],
+        liveUrl: "https://yowlhewo.netlify.app/",
         githubUrl: "https://github.com/ksebastiendev/myshop",
         featured: true
       }
